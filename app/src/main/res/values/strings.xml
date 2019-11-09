@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Caculator</string>
-    <string name="action_settings">Settings</string>
+    <string name="Help">
+        不能出现任何数除与0的运算！\
+        该运算器没有实现%，^和π的功能，请勿点击！\
+        运算符身边没有数字，则无法连接另一个运算符!\
+        感谢您的阅读！
+    </string>
+    <string name="title_activity_unit_converter">UnitConverter</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="title_activity_binary">BinaryActivity</string>
+    <string name="title_activity_binary_convert">BinaryConvert</string>
+    <string name="title_activity_binary_converter">BinaryConverter</string>
 </resources>

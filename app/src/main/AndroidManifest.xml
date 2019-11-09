@@ -8,6 +8,31 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"></application>
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".BinaryConverter"
+            android:label="@string/title_activity_binary_converter"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".BinaryConvert"
+            android:label="@string/title_activity_binary_convert"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BinaryActivity"
+            android:label="@string/title_activity_binary"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/title_activity_help"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UnitConverter"
+            android:label="@string/title_activity_unit_converter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UnitActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
 
 </manifest>
